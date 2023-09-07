@@ -1,0 +1,128 @@
+
+* {
+  margin: 0;
+}
+body {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10vh 30vh 10vh;
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: bolder;
+}
+
+/* Структура сайта */
+
+.header {
+  background: rgb(167, 166, 166);
+  grid-column: 1/3;
+  grid-row: 1/2;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-conteyner {
+  background: rgb(240, 226, 146);
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+
+.sidebar {
+  background: rgb(167, 226, 144);
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-conteyner {
+  background: rgb(167, 166, 166);
+  grid-column: 1/3;
+  grid-row: 3/4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-content: center;
+  grid-gap: 50px;
+}
+
+/* Структура основной части */
+
+.main {
+  height: 50%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.content1 {
+  background: rgb(245, 166, 77);
+  height: 5vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.content2 {
+  background: rgb(245, 166, 77);
+  height: 5vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.content3 {
+  background: rgb(245, 166, 77);
+  height: 5vh;
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+ justify-content: center;
+  align-items: center;
+}
+
+/* Структура футера и оформление */
+.footer-1 {
+  background: rgb(241, 240, 230);
+  height: 5vh;
+  margin-left: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-2 {
+  background: rgb(241, 240, 230);
+  height: 5vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-3 {
+  background: rgb(241, 240, 230);
+  height: 5vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-4 {
+  background: rgb(241, 240, 230);
+  height: 5vh;
+  margin-right: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
